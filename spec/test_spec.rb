@@ -6,7 +6,7 @@ describe 'gemathon' do
     @my_github_username = 'github-contributions'
     @my_github_password = 'github143'
     @connection = Github.new basic_auth: "#{@my_github_username}:#{@my_github_password}"
-    @org_name =["check-git",""]
+    @org_name =["check-git","second-check"]
   end
 
   it 'list repositories' do
